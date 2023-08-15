@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafis's - Developer Portfolio</title>
+    <link rel="icon" type="img" href="icon.jpg.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS STYLING -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        .left {
+            background-size: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            bottom: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #020259;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-style: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -13.5px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            font-size: small;
+            color: gray;
+            padding: 12px;
+        }
+    </style>
+
+    <!-- CSS STYLING END -->
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <!-- Navbar logo Section -->
+
+            <div class="left">
+                <div class="logo"></div>
+                <img src="newn.jpg" alt="" width="60px" height="50px">
+                afis's - Developer Portfolio
+            </div>
+
+            <!-- Navbar lists -->
+
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/portfolio-website/website.html">Home</a></li>
+                    <li><a href="https://www.instagram.com/mr_nafis_07_/">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/myrgstrsnform.html">Services</a></li>
+                    <li><a href="http://127.0.0.1:5500/project.html">Projects</a></li>
+                    <li><a href="https://www.facebook.com/nafis.akhtar.07">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <!-- Hero Section -->
+
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Nafis</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+                <!-- Applying Buttons -->
+
+                <div class="buttons"><button class="btn btn-success"
+                        onclick="location.href='https://www.youtube.com/channel/UCSRQN1Mau8tqbKrCRA7jm8Q';">See My
+                        Video's</button>
+                    <button class="btn btn-success" onclick="location.href='http://127.0.0.1:5500/project.html';">Visit
+                        Amazon Clone</button>
+                </div>
+            </div>
+
+            <!-- Hero Section Image -->
+
+            <div class="rightSection">
+                <img src="bbb.gif" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!--  Second Hero Section  -->
+
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <!-- Box 1 HTML logo -->
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Pinterest (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 2 Facebook logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="fb.png.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer - Facebook (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 3 Instagram logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="insta.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Instagram (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 4 Twitter logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Twitter (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 5 WhatsApp logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="wtsp.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - WhatsApp (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 6 YouTube logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="utube.png.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer - YouTube (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+
+                <!-- Box 7 Linked In logo -->
+
+                <div class="vertical">
+                    <img class="image-top" src="ln.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - LinkdIn (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui beatae ut quos vel hic
+                        eveniet, dolorem ipsam iusto ad architecto suscipit voluptatibus ullam a, quia commodi,
+                        recusandae eos porro! </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer First -->
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nafis's Developer Portfolio</h3>
+            </div>
+
+            <!-- Footer Second -->
+
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <p><a href="http://127.0.0.1:5500/portfolio-website/website.html">Home</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.instagram.com/mr_nafis_07_/">About</a></p>
+                    </li>
+                    <li>
+                        <p><a href="http://127.0.0.1:5500/myrgstrsnform.html">Services</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.facebook.com/nafis.akhtar.07">Contact</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Footer Third -->
+
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        <p><a href="http://127.0.0.1:5500/portfolio-website/website.html">Home</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.instagram.com/mr_nafis_07_/">About</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://fontawesome.com/start">Services</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.facebook.com/nafis.akhtar.07">Contact</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Footer Fourth -->
+
+            <div class="footer-fourth">
+                <ul>
+                    <li>
+                        <p><a href="http://127.0.0.1:5500/portfolio-website/website.html">Home</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.instagram.com/mr_nafis_07_/">About</a></p>
+                    </li>
+                    <li>
+                        <p><a href="http://127.0.0.1:5500/myrgstrsnform.html">Services</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.facebook.com/nafis.akhtar.07">Contact</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Rights -->
+
+        <div class="footer-rights">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            Copyright &#169; nafisportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <!-- Scripting for Hero Section -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphics Designer.', 'Web Designer.', 'Video Editor.', 'Photo Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
